@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Modern.Forms.GMapNET</PackageId>
+    <Product>Modern.Forms.GMapNET</Product>
+    <AssemblyTitle>Modern.Forms.GMapNET</AssemblyTitle>    
+    <TargetFrameworks>net6.0</TargetFrameworks>    
+    <DefineConstants>ContinuesMapNo;$(DefineConstants)</DefineConstants>
+    <Version>1.0.2</Version>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="System.Data.SQLite.Core" Version="1.0.117" />
+      <PackageReference Include="System.Resources.Extensions" Version="6.0.0" />
+      <PackageReference Include="modern.forms" Version="0.3.0" />
+      <PackageReference Include="Modern.WindowKit" Version="0.1.2" />
+
+  </ItemGroup>
+
+</Project>
