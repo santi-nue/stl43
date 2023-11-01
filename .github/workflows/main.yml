@@ -19,6 +19,6 @@ jobs:
 
       run: |
           dotnet build Modern.Forms.GMapNET/Modern.Forms.GMapNET.csproj -c Release -r linux-x64 
-          dotnet build Modern.Forms.Demo.GMapNET/Modern.Forms.Demo.GMapNET -c Release -r linux-x64 
+          dotnet build Modern.Forms.Demo.GMapNET/Modern.Forms.Demo.GMapNET.csproj -c Release -r linux-x64 
     
 
