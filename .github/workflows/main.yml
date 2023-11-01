@@ -16,4 +16,9 @@ jobs:
       with:
         dotnet-version: '6.0.x'
     - name: Build solution
-      run: dotnet build GMapNETSkiaSharp.sln -c Release -r linux-x64
+
+      run: |
+          dotnet build Modern.Forms.GMapNET/Modern.Forms.GMapNET.csproj -c Release -r linux-x64 
+          dotnet build Modern.Forms.Demo.GMapNET/Modern.Forms.Demo.GMapNET -c Release -r linux-x64 
+    
+
