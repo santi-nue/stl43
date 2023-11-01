@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<OutputType>WinExe</OutputType>
+		
 		<TargetFramework>net6.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<UseWindowsForms>false</UseWindowsForms>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<PublishAot>true</PublishAot>
+<RuntimeIdentifier>linux-x64</RuntimeIdentifier>
 	</PropertyGroup>
 
 	<ItemGroup>
